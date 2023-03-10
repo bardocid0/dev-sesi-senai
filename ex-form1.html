@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+
+    <style>
+        td{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <table border="2">
+        <tr>
+            <td colspan="2">Trabalhando com Forms</td>
+        </tr>
+        <tr>
+            <td style="text-align: left;">
+                Nome:
+            </td>
+            <th>
+                <input type="text" placeholder="Digite seu nome">
+            </th>
+        </tr>
+        <tr>
+            <td style="text-align: left;">
+                Sexo:
+            </td>
+            <th>
+                    <input type="radio" id="fem" name="sexo">
+                    <label for="fem">Feminino</label>
+                    <input type="radio" id="mas" name="sexo">
+                    <label for="mas">Masculino</label>
+            </th>
+        </tr>
+        <tr>
+            <td style="text-align: left;">
+                Escolaridade:
+            </td>
+            <th>
+                <select>
+                    <option selected value="">Selecione a Escolaridade</option>
+                    <option value="">Ensino Fundamental</option>
+                    <option value="">Ensino Médio</option>
+                    <option value="">Ensino Superior</option>
+                </select>
+            </th>
+        </tr>
+        <tr>
+            <td style="text-align: left;"><input type="reset" value="Limpar"></td>
+            <td style="text-align: left;"><input type="submit" value="Enviar"></td>
+        </tr>
+    </table>
+</body>
+</html>
