@@ -1,0 +1,132 @@
+body {
+    background-color: black;
+    text-align: center;
+}
+h4 {
+    color: white;
+    text-align: center;
+}
+a {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+}
+div {
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+.botao-1 {
+    width: 60px; height: 20px;
+    background-color: rgb(0, 0, 255);
+    color: rgb(66, 192, 255);
+    padding: 10px 20px;
+    text-align: center;
+    border: 1px solid rgb(255, 102, 245);
+    font-size: small;
+}
+.botao-1:hover {
+    background-color: darkblue;
+    padding: 20px;
+    transition-duration: 85ms;
+    opacity: 0.9;
+}
+.botao-2 {
+    width: 60px; height: 20px;
+    background-color: rgb(0, 126, 0);
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    border: 1px solid rgb(69, 255, 69);
+    border-radius: 5px;
+    font-size: small;
+}
+.botao-2:hover {
+    background-color: darkgreen;
+    padding: 20px;
+    transition-duration: 85ms;
+    opacity: 0.9;
+}
+.botao-3 {
+    width: 60px; height: 20px;
+    background-color: rgb(151, 0, 0);
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    border: 1px solid pink;
+    border-radius: 10px 0px 10px 0px;
+    font-size: small;
+}
+.botao-3:hover {
+    background-color: rgb(62, 0, 0);
+    padding: 20px;
+    transition-duration: 85ms;
+    opacity: 0.9;
+}
+.botao-4 {
+    width: 60px; height: 20px;
+    background-color: rgb(157, 124, 34);
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    border: 1px solid pink;
+    border-radius: 10px 0px 0px 10px;
+    font-size: small;
+}
+.botao-4:hover {
+    background-color: rgb(100, 105, 27);
+    padding: 20px;
+    transition-duration: 85ms;
+    opacity: 0.9;
+}
+.botao-5 {
+    background: linear-gradient(rgb(255, 0, 0), rgb(0, 0, 255));
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    border: 1px solid pink;
+    border-radius: 10px 0px 0px 10px;
+    font-size: small;
+}
+.botao-5:hover {
+    padding: 20px;
+    transition-duration: 85ms;
+    opacity: 0.9;
+}
+.botao-6 {
+    background: linear-gradient(50deg, rgb(0, 217, 255), rgb(0, 0, 255), rgb(170, 0, 255));
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    border: 1px solid linear-gradient(50deg, rgb(0, 217, 255), rgb(0, 0, 255), rgb(170, 0, 255));
+    border-radius: 10px 10px 10px 10px;
+    font-size: small;
+}
+.botao-6:hover {
+    padding: 20px;
+    transition-duration: 85ms;
+    opacity: 0.9;
+}
+.botao-7 {
+    background: linear-gradient(50deg, rgb(81, 255, 90), rgb(37, 255, 48), rgb(0, 255, 136));
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    border-radius: 40px 40px 20px 20px;
+    font-size: small;
+}
+.botao-7:hover {
+    padding: 20px;
+    transition-duration: 85ms;
+    opacity: 0.9;
+}
+.botao-8 {
+    border: 1px solid rgb(255, 255, 255);
+    color: rgb(170, 0, 255);
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-size: small;
+}
+.botao-8:hover {
+    padding: 20px;
+    transition-duration: 85ms;
+    opacity: 0.9;
+}

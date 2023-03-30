@@ -1,0 +1,42 @@
+.borda-cheia {
+    border: 1px solid black
+}
+.borda-abaixo {
+    border-bottom: 2px solid red
+}
+.borda-redonda {
+    border: 2px solid green;
+    border-radius: 3px;
+}
+.borda-cheia-esquerda {
+    border-left: 4px solid blue;
+    background-color: lightblue;
+}
+.borda-pontilhada {
+    border-top: 1px dotted rgb(150, 76, 219);
+}
+.borda-mista {
+    border-left: 4px double green;
+    border-top: 4px solid yellow;
+    border-right: 4px dotted blue;
+    border-bottom: 4px dashed red;
+}
+.img-arredondada {
+    background-image: url(../img/download\ \(2\).jfif);
+    border-radius: 25px;
+    width: 200px; height: 200px;
+}
+.borda-arredondada {
+    background-color: blue;
+    width: 300px; height: 200px;
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+.img-redonda {
+    background-image: url(../img/download\ \(2\).jfif);
+    border-radius: 100%;
+    width: 200px; height: 200px;
+}
+.img-gradiente {
+    
+}

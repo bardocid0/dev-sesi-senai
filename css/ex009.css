@@ -1,0 +1,22 @@
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: orange;
+    text-align: center;
+}
+.titulos {
+    border-bottom: 2px solid black;
+    border-left: 4px solid black;
+    border-radius: 8px;
+
+}
+.logo {
+    width: 100px;
+    height: 90px;
+    background-image: url(../img/xurrasco-xurrasco021.gif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    float: left;
+}
+.just {
+    text-align: justify;
+}

@@ -1,0 +1,81 @@
+body {
+    background-color:lightgrey;
+}
+
+h1 {
+    color: grey;
+    text-align: center;
+    transition: 1s;
+}
+
+hr {
+    border-color: lime;
+}
+.azul {
+    background-color: rgb(0, 0, 184);
+    transition: 1s;
+}
+.amarelo {
+    background-color: rgb(201, 171, 0);
+    transition: 1s;
+}
+.verde {
+    background-color: green;
+    transition: 1s;
+}
+.vermelho {
+    background-color: rgb(189, 0, 0);
+    transition: 1s;
+}
+.rosa {
+    background-color: rgb(122, 51, 188);
+    transition: 1s;
+}
+#preto {
+    background-color: black;
+    transition: 1s;
+}
+td{
+    width: 100px; height: 100px;
+}
+table {
+    margin: auto;
+}
+
+.azul:hover {
+    width: 139px; height: 96px;
+    background-color: rgb(124, 234, 158);
+    transition: 1s;
+}
+.amarelo:hover {
+    width: 132px; height: 656px;
+    background-color: rgb(133, 7, 133);
+    transition: 1s;
+}
+.verde:hover {
+    width: 34px; height: 186px;
+    background-color: rgb(244, 141, 255);
+    transition: 1s;
+}
+.vermelho:hover {
+    width: 111px; height: 222px;
+    background-color: rgb(52, 89, 91);
+    transition: 1s;
+}
+.rosa:hover {
+    width: 231px; height: 402px;
+    background-color: rgb(255, 56, 56);
+    transition: 1s;
+}
+#preto:hover {
+    width: 150px; height: 150px;
+    background-color: rgb(184, 157, 157);
+    transition: 1s;
+}
+
+h1:hover {
+    color: rgb(0, 0, 0);
+    text-align: center;
+    transition: 1s;
+    font-size: 75px;
+}
